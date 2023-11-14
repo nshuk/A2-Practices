@@ -1,7 +1,7 @@
 myList = [27,19,36,42,16,89,21,16,55]
 
 lbound = 0
-uBound = 9 # can use len mylist
+uBound = len(myList) - 1
 n = uBound - 1
 swapFlag = False
 
