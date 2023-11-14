@@ -1,7 +1,7 @@
 myList = [16, 19, 21, 27, 36, 42, 55, 67, 76, 89]
 
 lBound = 0
-uBound = len(myList)
+uBound = len(myList) -1
 index = lBound
 foundFlag = False
 searchValue = int(input("Please enter an integer: "))
@@ -22,7 +22,7 @@ else:
     print("the value is not found")
 
 # our index starts with 0, all the way until index 9
-# since we have 10 items in our array, the len mylist will also bring about the value 9 cuz it starts counting from 0
+# since we have 10 items in our array, the len mylist will also bring about the value 10, not 9. it counts the length, not giving the final index
 # arrays of bsearch has to be pre-arranged in ascending order first 
 # binary search will start from the middle of array, then go left or right depending on the value of the search item
-# 
+
