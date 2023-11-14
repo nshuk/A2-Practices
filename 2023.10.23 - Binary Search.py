@@ -22,7 +22,7 @@ else:
     print("the value is not found")
 
 # our index starts with 0, all the way until index 9
-# since we have 10 items in our array, the len mylist will also bring about the value 10
+# since we have 10 items in our array, the len mylist will also bring about the value 9 cuz it starts counting from 0
 # arrays of bsearch has to be pre-arranged in ascending order first 
 # binary search will start from the middle of array, then go left or right depending on the value of the search item
 # 
