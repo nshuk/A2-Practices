@@ -3,7 +3,7 @@ stackArray = [emptyString for i in range (10)]
 
 nullPointer = -1
 topPointer = -1
-stackSize = len(stackArray)
+stackSize = len(stackArray) #we are trying to get the size of stack, not upbound
 
 # basically topPointer will start at position -1, then will increase or decrease based on the amount of current elements
 # null pointer is a constant which tells us whether we have reached the empty stack or not
