@@ -2,7 +2,7 @@ myList = [27,19,36,42,16,89,21,16,55]
 
 lbound = 0
 uBound = len(myList) - 1
-n = uBound - 1
+n = uBound
 swapFlag = False
 
 print("The unsorted array is: ", myList)
