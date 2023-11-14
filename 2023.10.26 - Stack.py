@@ -3,7 +3,7 @@ stackArray = [emptyString for i in range (10)]
 
 nullPointer = -1
 topPointer = -1
-stackSize = len(stackArray) - 1
+stackSize = len(stackArray)
 
 # basically topPointer will start at position -1, then will increase or decrease based on the amount of current elements
 # null pointer is a constant which tells us whether we have reached the empty stack or not
@@ -16,7 +16,7 @@ print(stackArray)
 
 def push(newItem):
     global topPointer, stackSize
-    if topPointer < (stackSize):
+    if topPointer < (stackSize-1):
         topPointer = topPointer + 1
         stackArray[topPointer] = newItem
         print("here's the stack after a push")
