@@ -16,7 +16,7 @@ print(stackArray)
 
 def push(newItem):
     global topPointer, stackSize
-    if topPointer < (stackSize-1):
+    if topPointer < (stackSize-1): # must size -1 cuz that's the upbound
         topPointer = topPointer + 1
         stackArray[topPointer] = newItem
         print("here's the stack after a push")
