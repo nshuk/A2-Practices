@@ -13,7 +13,7 @@ for x in range ((lowBound+1), (upBound+1)): #start at lbound+1, end at upbound
             temp = myList[left+1]
             myList[left+1] = myList[left]
             myList[left] = temp
-            left = left - 1 # go the previous element at the back, until left = -1 (reaches beginnig of list)
+            left = left - 1 # go the previous element at the back, until left = -1 (reaches beginning of list)
 
 print ("The sorted array is: ", myList)
 
