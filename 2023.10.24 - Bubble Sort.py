@@ -1,4 +1,4 @@
-myList = [27,19,36,42,16,89,21,16,55]
+myList = [27,19,36,42,16,89,21,7,55]
 
 lbound = 0
 uBound = len(myList) - 1
@@ -20,7 +20,7 @@ print("After ascending sorting, the array is: ", myList)
 #Reinitialize the changing variables swapflag and n has been changed
 # this one below is for sorting to descending order
 swapFlag = False
-n = uBound -1
+n = uBound
 
 while (swapFlag == False) or (n>0):
     for i in range(lbound,n):
