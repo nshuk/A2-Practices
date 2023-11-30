@@ -1,4 +1,4 @@
-# instructions: declare a queue with 5 elements size, add inte gers 15 and 45, then remove both
+# instructions: declare a queue with 5 elements size, add integers 15 and 45, then remove both
 # try to remove a third integer, and add 1,2,3,4,5 then try to add 7  to queue
 
 emptyString = " "
