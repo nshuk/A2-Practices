@@ -7,9 +7,9 @@ class employee:
         print("Employee name is", self.__name)
         print("Their staff number is", self.__staffno)
 
-class partTime(employee):
-    def __init__(self, name, staffno):
-        employee.__init__(self, name, staffno)
+class partTime(employee): # inherited class must have its superclass as parameter otherwise you cant call the superclass. self will be higlighted
+    def __init__(self, name, staffno): # ensure the parameters of superclass is present, only then add the subclass-specific parameters
+        employee.__init__(self, name, staffno) # this is how you inherit from a superclass. ensure the parameters are identical
         self.__fullTimeStaff = False
         self.__hoursWorked = 0
     def getHoursWorked(self):
